@@ -23,7 +23,7 @@ sessão.
 
 A estrutura das informações que irão no body das requisições post e put dos microsserviços são as seguintes:
 
-Compradores
+Compradores/n
 id
 nome
 cpf
