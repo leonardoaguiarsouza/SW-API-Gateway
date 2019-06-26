@@ -8,8 +8,8 @@ const SECRET = 'senha';
 
 var httpProxy = require('express-http-proxy');
 
-var microserviceProxyComp = httpProxy('http://localhost:3001');
-var microserviceProxyReceb = httpProxy('http://localhost:3002');
+var microserviceProxyComp = httpProxy('https://api-compradores-leonardo-souza.herokuapp.com/');
+var microserviceProxyReceb = httpProxy('https://api-recebedores-leonardo-souza.herokuapp.com/');
 
 router.get('/compradores', function (req, res, next) {
   req.originalUrl = '/api' + req.originalUrl;
