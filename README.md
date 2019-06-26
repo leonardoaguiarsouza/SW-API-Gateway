@@ -25,4 +25,4 @@ A estrutura das informações que irão no body das requisições post e put dos
 
 Compradores {id, nome, cpf, produto, valor}
 
-Recebedores {id, nome, cpf, endereco, turno
+Recebedores {id, nome, cpf, endereco, turno}
