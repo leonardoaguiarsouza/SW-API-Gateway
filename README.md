@@ -21,7 +21,7 @@ Para acessar o microsserviço do CRUD dos recebedores: https://api-gateway-leona
 As requisições GET dispensam autenticação, porém as demais requisições vão necessitar do token no header para realizar o controle da
 sessão.
 
-A estrutura das informações que irão no body das requisições post e put dos microsserviços são as seguintes:
+A estrutura das informações que irão no body das requisições POST e PUT dos microsserviços são as seguintes:
 
 Compradores {id, nome, cpf, produto, valor}
 
